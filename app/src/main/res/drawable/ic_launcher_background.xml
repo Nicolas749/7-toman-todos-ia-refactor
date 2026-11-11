@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher icon background: the app's night-purple gradient with a soft glow behind the cards. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="54"
+                android:endY="108"
+                android:startX="54"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FF4A2C80" android:offset="0" />
+                <item android:color="#FF2A1A4D" android:offset="0.55" />
+                <item android:color="#FF160E2A" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="50"
+                android:gradientRadius="42"
+                android:type="radial">
+                <item android:color="#66F7A21B" android:offset="0" />
+                <item android:color="#1FF7A21B" android:offset="0.55" />
+                <item android:color="#00F7A21B" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

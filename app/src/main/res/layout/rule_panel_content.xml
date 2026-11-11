@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Title and text of the current rule, shared by the portrait and landscape game layouts. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/cardTitle"
+        style="@style/RuleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.32"
+        tools:text="Nueve Al Que Se Mueve" />
+
+    <TextView
+        android:id="@+id/infoTxt"
+        style="@style/RuleText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.68"
+        tools:text="@string/card_nueve_rule" />
+</merge>

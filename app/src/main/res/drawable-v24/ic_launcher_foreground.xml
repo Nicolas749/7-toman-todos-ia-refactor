@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Launcher icon foreground: the deck's purple card back fanned behind a white "7" card,
+    the same pair shown on the home screen. Everything stays inside the 66dp safe circle,
+    so no launcher mask (circle, squircle, teardrop) clips it.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Card back (26 x 36), tilted left -->
+    <group
+        android:pivotX="13"
+        android:pivotY="18"
+        android:rotation="-14"
+        android:translateX="33.5"
+        android:translateY="37">
+        <path
+            android:fillAlpha="0.35"
+            android:fillColor="#FF0B0616"
+            android:pathData="M3.8,1.2 h20 a3,3 0 0 1 3,3 v30 a3,3 0 0 1 -3,3 h-20 a3,3 0 0 1 -3,-3 v-30 a3,3 0 0 1 3,-3 z" />
+        <path
+            android:pathData="M3,0 h20 a3,3 0 0 1 3,3 v30 a3,3 0 0 1 -3,3 h-20 a3,3 0 0 1 -3,-3 v-30 a3,3 0 0 1 3,-3 z"
+            android:strokeWidth="1.2"
+            android:strokeColor="#FFFFFDF8">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:endX="13"
+                    android:endY="36"
+                    android:startX="13"
+                    android:startY="0"
+                    android:type="linear">
+                    <item android:color="#FF5A3596" android:offset="0" />
+                    <item android:color="#FF24163F" android:offset="1" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M4,2.6 h18 a1.4,1.4 0 0 1 1.4,1.4 v28 a1.4,1.4 0 0 1 -1.4,1.4 h-18 a1.4,1.4 0 0 1 -1.4,-1.4 v-28 a1.4,1.4 0 0 1 1.4,-1.4 z"
+            android:strokeWidth="1"
+            android:strokeColor="#FFF7A21B" />
+        <path
+            android:fillColor="#FF2A1B47"
+            android:pathData="M7.5,18 a5.5,5.5 0 1 0 11,0 a5.5,5.5 0 1 0 -11,0 z"
+            android:strokeWidth="1"
+            android:strokeColor="#FFF7A21B" />
+    </group>
+
+    <!-- Seven of hearts (28 x 39), tilted right -->
+    <group
+        android:pivotX="14"
+        android:pivotY="19.5"
+        android:rotation="8"
+        android:translateX="47.5"
+        android:translateY="34">
+        <path
+            android:fillAlpha="0.4"
+            android:fillColor="#FF0B0616"
+            android:pathData="M4.5,1.6 h21 a3.5,3.5 0 0 1 3.5,3.5 v32 a3.5,3.5 0 0 1 -3.5,3.5 h-21 a3.5,3.5 0 0 1 -3.5,-3.5 v-32 a3.5,3.5 0 0 1 3.5,-3.5 z" />
+        <path
+            android:fillColor="#FFFFFDF8"
+            android:pathData="M3.5,0 h21 a3.5,3.5 0 0 1 3.5,3.5 v32 a3.5,3.5 0 0 1 -3.5,3.5 h-21 a3.5,3.5 0 0 1 -3.5,-3.5 v-32 a3.5,3.5 0 0 1 3.5,-3.5 z"
+            android:strokeWidth="0.6"
+            android:strokeColor="#FFD9D3C7" />
+
+        <!-- The big 7: ink shadow, then orange with an ink outline -->
+        <path
+            android:fillColor="#FF1C1233"
+            android:pathData="M7.9,9.6 L22.4,9.6 L22.4,14.3 L16.1,31.6 L10.5,31.6 L16.5,14.7 L7.9,14.7 Z"
+            android:strokeWidth="1.5"
+            android:strokeColor="#FF1C1233"
+            android:strokeLineJoin="round" />
+        <path
+            android:fillColor="#FFF7A21B"
+            android:pathData="M7,8.5 L21.5,8.5 L21.5,13.2 L15.2,30.5 L9.6,30.5 L15.6,13.6 L7,13.6 Z"
+            android:strokeWidth="1.3"
+            android:strokeColor="#FF1C1233"
+            android:strokeLineJoin="round" />
+
+        <!-- Corner hearts -->
+        <group
+            android:translateX="4.6"
+            android:translateY="5">
+            <path
+                android:fillColor="#FFC62828"
+                android:pathData="M0,1.7 C-0.3,1.4 -2,0.3 -2,-0.6 C-2,-1.5 -0.7,-1.9 0,-0.9 C0.7,-1.9 2,-1.5 2,-0.6 C2,0.3 0.3,1.4 0,1.7 Z" />
+        </group>
+        <group
+            android:rotation="180"
+            android:translateX="23.4"
+            android:translateY="34">
+            <path
+                android:fillColor="#FFC62828"
+                android:pathData="M0,1.7 C-0.3,1.4 -2,0.3 -2,-0.6 C-2,-1.5 -0.7,-1.9 0,-0.9 C0.7,-1.9 2,-1.5 2,-0.6 C2,0.3 0.3,1.4 0,1.7 Z" />
+        </group>
+    </group>
+</vector>

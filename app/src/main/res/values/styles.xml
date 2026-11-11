@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Home: the two mode choices. Labels may wrap to two lines at large text sizes. -->
+    <style name="ModeToggleButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <!-- Both halves match the taller one when a label wraps. -->
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingHorizontal">8dp</item>
+        <item name="android:paddingVertical">6dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:breakStrategy">simple</item>
+        <!-- At very large system text the label wraps to a second line rather than being cut off. -->
+        <item name="android:ellipsize">none</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/toggle_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/toggle_bg</item>
+        <item name="cornerRadius">26dp</item>
+        <item name="strokeColor">@color/white_45</item>
+    </style>
+
+    <!-- Home: the main call to action. -->
+    <style name="PlayButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:fontFamily">@font/luckiest_guy</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:text">@string/home_play</item>
+        <item name="android:textColor">@color/brand_ink</item>
+        <item name="android:textSize">26sp</item>
+        <item name="backgroundTint">@color/brand_orange</item>
+        <item name="cornerRadius">32dp</item>
+        <item name="elevation">6dp</item>
+        <item name="icon">@drawable/ic_play</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconSize">28dp</item>
+        <item name="iconTint">@color/brand_ink</item>
+        <item name="rippleColor">@color/white_30</item>
+    </style>
+
+    <!-- Game: the panel that shows the current rule. -->
+    <style name="RulePanel">
+        <item name="android:background">@drawable/bg_panel</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:accessibilityLiveRegion">polite</item>
+    </style>
+
+    <style name="RuleTitle">
+        <item name="android:autoSizeMaxTextSize">34sp</item>
+        <item name="android:autoSizeMinTextSize">18sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:fontFamily">@font/luckiest_guy</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/brand_orange</item>
+    </style>
+
+    <!-- Scrolls when even the smallest size does not fit, e.g. at the largest system text size. -->
+    <style name="RuleText">
+        <item name="android:autoSizeMaxTextSize">26sp</item>
+        <item name="android:autoSizeMinTextSize">14sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal|top</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">24dp</item>
+    </style>
+
+    <style name="RestartButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingHorizontal">28dp</item>
+        <item name="android:text">@string/game_restart</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/brand_ink</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/brand_orange</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="icon">@drawable/ic_shuffle</item>
+        <item name="iconTint">@color/brand_ink</item>
+    </style>
+</resources>

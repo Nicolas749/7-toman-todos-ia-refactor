@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Decorative fan of three cards on the home screen. The activity scales it to fit. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardFanContent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:importantForAccessibility="noHideDescendants"
+    android:paddingHorizontal="80dp"
+    android:paddingVertical="24dp">
+
+    <com.juego.siete_toman_todos.PlayingCardView
+        android:id="@+id/fanLeft"
+        android:layout_width="@dimen/fan_card_width"
+        android:layout_height="@dimen/fan_card_height"
+        android:elevation="6dp"
+        android:rotation="-14"
+        android:translationX="-72dp"
+        android:translationY="12dp" />
+
+    <com.juego.siete_toman_todos.PlayingCardView
+        android:id="@+id/fanRight"
+        android:layout_width="@dimen/fan_card_width"
+        android:layout_height="@dimen/fan_card_height"
+        android:elevation="8dp"
+        android:rotation="14"
+        android:translationX="72dp"
+        android:translationY="12dp" />
+
+    <com.juego.siete_toman_todos.PlayingCardView
+        android:id="@+id/fanCenter"
+        android:layout_width="@dimen/fan_card_width"
+        android:layout_height="@dimen/fan_card_height"
+        android:elevation="10dp" />
+</FrameLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">7 Toman Todos</string>
+
+    <!-- Home screen -->
+    <string name="home_title">7 Toman\nTodos</string>
+    <string name="home_subtitle">El clásico juego de cartas para la fiesta</string>
+    <string name="home_mode_full">Baraja completa</string>
+    <string name="home_mode_random">Al azar</string>
+    <string name="home_mode_full_help">52 cartas, ninguna se repite</string>
+    <string name="home_mode_random_help">Cartas al azar, sin final</string>
+    <string name="home_play">Jugar</string>
+    <string name="home_footer">Juega con responsabilidad · Solo mayores de 18</string>
+
+    <!-- Game screen -->
+    <string name="game_back">Volver al menú</string>
+    <string name="game_restart">Barajar de nuevo</string>
+    <string name="game_progress">Carta %1$d de %2$d</string>
+    <string name="game_random_mode">Modo al azar</string>
+    <string name="game_tap_hint">Toca la carta para sacar la siguiente</string>
+    <string name="game_deck_finished_title">¡Baraja terminada!</string>
+    <string name="game_deck_finished_text">Baraja de nuevo para jugar otra ronda</string>
+    <string name="card_description">%1$s de %2$s</string>
+    <string name="game_draw_next">Sacar la siguiente carta</string>
+    <string name="game_exit_title">¿Salir de la partida?</string>
+    <string name="game_exit_message">Se perderá el progreso de esta baraja.</string>
+    <string name="game_exit_confirm">Salir</string>
+    <string name="game_exit_cancel">Seguir jugando</string>
+
+    <!-- Card names, for screen readers -->
+    <string name="rank_ace">As</string>
+    <string name="rank_jack">Jota</string>
+    <string name="rank_queen">Reina</string>
+    <string name="rank_king">Rey</string>
+    <string name="suit_hearts">corazones</string>
+    <string name="suit_diamonds">diamantes</string>
+    <string name="suit_spades">picas</string>
+    <string name="suit_clubs">tréboles</string>
+
+    <!-- Card rules -->
+    <string name="card_as_title">¡As Venganza!</string>
+    <string name="card_as_rule">El jugador que tenga esta carta la puede guardar para enviar a tomar a quien desee</string>
+    <string name="card_dos_title">Dos Salvación</string>
+    <string name="card_dos_rule">El jugador que tenga esta carta puede salvarse para no tomar, solo una vez</string>
+    <string name="card_tres_title">Tres Al Juez</string>
+    <string name="card_tres_rule">Quien tenga el celular en mano o sea encargado de dar de tomar, bebe un shot</string>
+    <string name="card_cuatro_title">Cuatro Al Más Gato</string>
+    <string name="card_cuatro_rule">El jugador con los ojos más claros bebe un shot</string>
+    <string name="card_cinco_title">Cinco Al Brinco</string>
+    <string name="card_cinco_rule">El jugador tiene que saltar en cualquier momento, el último en saltar toma un shot</string>
+    <string name="card_seis_title">Seis Al Que Ves</string>
+    <string name="card_seis_rule">Al jugador que le tocó esta carta puede observar a quien quiera que beba un shot</string>
+    <string name="card_siete_title">Siete Toman Todos</string>
+    <string name="card_siete_rule">Toman todos los jugadores</string>
+    <string name="card_ocho_title">Ocho Al Más Tocho</string>
+    <string name="card_ocho_rule">Bebe el jugador más pequeño en altura o en edad</string>
+    <string name="card_nueve_title">Nueve Al Que Se Mueve</string>
+    <string name="card_nueve_rule">El jugador con esta carta tendrá que contar hasta 3 cuando desee y el jugador que se mueva en ese tiempo toma un shot</string>
+    <string name="card_diez_title">Diez Para La Vejez</string>
+    <string name="card_diez_rule">El jugador con mayor edad bebe un shot</string>
+    <string name="card_joto_title">J De Mala Suerte</string>
+    <string name="card_joto_rule">El jugador a la izquierda beberá un shot</string>
+    <string name="card_reina_title">Reina De Copas</string>
+    <string name="card_reina_rule">El jugador a la derecha beberá un shot</string>
+    <string name="card_rey_title">Rey De Copas</string>
+    <string name="card_rey_rule">El jugador en frente beberá un shot</string>
+</resources>
